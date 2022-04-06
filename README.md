@@ -9,6 +9,6 @@ In the case of the interpreted lenguages, are translate step by step (line by li
   1. START
   2. GET dolaramount
   3. bit <-- 0.000022
-  4. total <-- dolaramount * bit
+  4. total <-- dolaramount / bit
   5. PRINT total
   6. END
