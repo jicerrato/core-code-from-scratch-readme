@@ -74,10 +74,10 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 		syscall
 	
 #### Part 2
-.data
-	name: .asciiz "José Ismael cerrato Ortíz\n"
-.text
-	main:
-	li $v0, 4
-	la $a0, name
-	syscall
+	.data
+		name: .asciiz "José Ismael cerrato Ortíz\n"
+	.text
+		main:
+		li $v0, 4
+		la $a0, name
+		syscall
