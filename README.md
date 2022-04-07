@@ -24,9 +24,9 @@ In the case of the interpreted lenguages, are translate step by step (line by li
   4. START CICLE
   5.   temp <-- temp / 2
   6.   START DESICION
-  7.     IF remain(temp/2) igual 0
+  7.     SI remain(temp/2) igual 0
   8.       bin <-- concatenar(0, bin)
-  9.     ELSE
+  9.     SINO
   10.      bin <-- concatenar(1, bin)
   11.  END DESICION
   12. END CICLE
