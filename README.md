@@ -84,10 +84,10 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 
 ## Week 1 - Tuesday
 ### Exercise #1
-var num = 0;
+	var num = 0;
 
-while (num<100)
-{
-    num = num +2;
-    console.log(num);
-}
+	while (num<100)
+	{
+	    num = num +2;
+	    console.log(num);
+	}
