@@ -91,3 +91,17 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 	    num = num +2;
 	    console.log(num);
 	}
+	
+### Exercise #2
+The error in the code is de signal '='. when we use just one singal = is asigment a value to a variable, when we want to compare two or more values, we use double signal = (==)
+	var cond = false;
+
+	if ((cond == true)) 
+	{
+	  console.log('The cond variable is true');
+	} 
+	else 
+	{
+	  console.log('The cond variable is false');
+	}
+
