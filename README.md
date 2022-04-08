@@ -81,3 +81,13 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 		li $v0, 4
 		la $a0, name
 		syscall
+
+## Week 1 - Tuesday
+### Exercise #1
+var num = 0;
+
+while (num<100)
+{
+    num = num +2;
+    console.log(num);
+}
