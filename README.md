@@ -107,7 +107,7 @@ The error in the code is the equal sign '='. when we use just one equals sign (=
 
 ### Exercise #3
 
-	var n = 74152;
+	var n = 0;
 
 	if (n == 100) 
 	{
