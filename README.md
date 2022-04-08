@@ -105,3 +105,22 @@ The error in the code is the equal sign '='. when we use just one equals sign (=
 	  console.log('The cond variable is false');
 	}
 
+### Exercise #3
+
+	var n = 74152;
+
+	if (n == 100) 
+	{
+	    console.log('This is a special number!');
+	}
+	else
+	{
+	    if ((n < 1000) && (n % 10 == 0)) 
+	    {
+	        console.log('This number is almost special');
+	    } 
+	    else 
+	    {
+	        console.log('Just a regular number');
+	    }
+	}
