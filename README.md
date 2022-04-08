@@ -93,7 +93,7 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 	}
 	
 ### Exercise #2
-The error in the code is de signal '='. when we use just one singal = is asigment a value to a variable, when we want to compare two or more values, we use double signal = (==)
+The error in the code is the equal sign '='. when we use just one equals sign (=) is to asigment a value to a variable, when we want to compare two or more values, we use double equals sign (==)
 	var cond = false;
 
 	if ((cond == true)) 
