@@ -134,7 +134,7 @@ for solve this kata, only have to add the command RETURN in the second line
 	}
 	
 ### ASCII Total
-You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.
+You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters. For this Kata, i used FOR and the function charCodeAt()
 
 	function uniTotal (cadena) {
 	  let total = 0;
@@ -145,4 +145,12 @@ You'll be given a string, and have to return the sum of all characters as an int
 	  return total;
 	}
 
-###
+### Char From ASCII Value
+Write a function get_char() / getChar() which takes a number and returns the corresponding ASCII char for that value. In this case i have used the method String.fromCharCode()
+
+	function getChar(c)
+	{
+	    let text = String.fromCharCode(c);
+	    return text;
+	}
+
