@@ -124,3 +124,24 @@ The error in the code is the equal sign '='. when we use just one equals sign (=
 	        console.log('Just a regular number');
 	    }
 	}
+	
+##Week 2 - Tuesday
+### Multiply exercise
+for solve this kata, only have to add the command RETURN in the second line
+	function multiply(a, b){
+	  return a * b;
+	}
+	
+### ASCII Total
+You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.
+
+	function uniTotal (cadena) {
+	  let total = 0;
+	  for (let i = 0; i < cadena.length; i++)
+	  {
+	    total = total + Number(cadena.charCodeAt(i));
+	  }
+	  return total;
+	}
+
+###
