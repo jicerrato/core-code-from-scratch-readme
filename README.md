@@ -128,6 +128,7 @@ The error in the code is the equal sign '='. when we use just one equals sign (=
 ##Week 2 - Tuesday
 ### Multiply exercise
 for solve this kata, only have to add the command RETURN in the second line
+
 	function multiply(a, b){
 	  return a * b;
 	}
