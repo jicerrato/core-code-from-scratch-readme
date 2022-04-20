@@ -154,3 +154,5 @@ Write a function get_char() / getChar() which takes a number and returns the cor
 	    return text;
 	}
 
+### Binary Addition
+Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition. The binary number returned should be a string.
