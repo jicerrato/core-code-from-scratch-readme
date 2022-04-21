@@ -216,11 +216,18 @@ You will be given the high street price (normPrice), the duty free discount (dis
 For example, if a bottle cost £10 normally and the discount in duty free was 10%, you would save £1 per bottle. If your holiday cost £500, the answer you should return would be 500.
 All inputs will be integers. Please return an integer. Round down.
 
-
-
-	function dutyFree(normPrice, discount, hol){
+	function dutyFree(normPrice, discount, hol)
+	{
 	  let cant1 = (normPrice*discount)/100;
 	  let cant2 = hol/cant1;
 	  let cant3 = Math.floor(cant2);
 	  return cant3;
 	}
+
+
+### Twice as old
+Your function takes two arguments:
+ - current father's age (years)
+ - current age of his son (years)
+Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
+
