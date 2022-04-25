@@ -231,3 +231,30 @@ Your function takes two arguments:
  - current age of his son (years)
 Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
 
+	function twiceAsOld(dadYearsOld, sonYearsOld) {
+	  let edad = sonYearsOld * 2;
+	  let diferencia = 0;
+  
+	  if (edad < dadYearsOld){
+	    diferencia = dadYearsOld - edad;
+	  } else {
+	    diferencia = edad - dadYearsOld;
+	  }
+	  return diferencia
+	}
+	
+### Valid Spacing
+our task is to write a function called valid_spacing() or validSpacing() which checks if a string has valid spacing. The function should return either true or false (or the corresponding value in each language).
+For this kata, the definition of valid spacing is one space between words, and no leading or trailing spaces. Words can be any consecutive sequence of non space characters. 
+
+	function validSpacing(s) {
+	    for(let i=0;i<=s.length;i++){
+	        if (s[0]==' ' || s[s.length-1]==' '){
+	            var validation = false;}
+	        else if (s[i]==' ' && s[i+1]==' ' && i>=0 && i<s.length-1 || s[i]==' ' && s[i-			1]==' ' && i>0 && i<=s.length-1){
+	            var validation = false;}
+	    }
+	    if (typeof(validation) == "undefined"){
+	        return true;}
+	    else {return false};
+	}
