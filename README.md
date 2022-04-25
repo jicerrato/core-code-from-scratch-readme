@@ -258,3 +258,20 @@ For this kata, the definition of valid spacing is one space between words, and n
 	        return true;}
 	    else {return false};
 	}
+
+### Fake Binary
+Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string. Note: input will never be an empty string
+
+	function fakeBin(x){
+	  let digito = '';
+	  let binario = '';
+	  for (let i = 0; i < x.length; i++){
+	    digito = x.substr(i,1);
+	    if (digito < 5){
+	      binario = binario + '0';
+	    } else {
+	      binario = binario + '1';
+	    }
+	  }
+	  return binario;
+	}
