@@ -275,3 +275,27 @@ Given a string of digits, you should replace any digit below 5 with '0' and any 
 	  }
 	  return binario;
 	}
+
+## Week 2 - Thursday
+### Remove all exclamation marks from the end of sentence
+
+	function remove (string) {  
+	  let contador = string.length;
+	  let letra = '';
+	  let text = string;
+	  while (contador > 0){
+	    letra = string.substr(contador-1,1);
+	    //console.log(letra);
+	    if (letra === '!'){
+	      text = string.substr(0,contador);
+	    }else{
+	      text = string.substr(0,contador);
+	      break;
+	    }
+	    contador = contador -1;
+	  }
+	  return text;
+	}
+	
+### 
+
