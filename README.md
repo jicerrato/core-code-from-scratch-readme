@@ -276,7 +276,7 @@ Given a string of digits, you should replace any digit below 5 with '0' and any 
 	  return binario;
 	}
 
-## Week 2 - Thursday
+## Week 2 - Tuesday
 ### Remove all exclamation marks from the end of sentence
 
 	function remove (string) {  
