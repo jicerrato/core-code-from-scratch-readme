@@ -1,5 +1,5 @@
 # core-code-from-scratch-readme
-## Week 1 - Thursday
+## Week 1 - Tuesday
 ### Question #1
 1.- Compiled lenguages are those programming lenguages witch need a pre revision or translation fron a source to a program file (compile process) So, this type of lenguages need to be translating first and then can be reading by the computer. This lenguages needs a specific type of ending code to run in a specific platform
 In the case of the interpreted lenguages, are translate step by step (line by line) and can be send the final code to any platform to execute. 
@@ -82,7 +82,7 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 		la $a0, name
 		syscall
 
-## Week 1 - Tuesday
+## Week 1 - Thursday
 ### Exercise #1
 	var num = 0;
 
@@ -125,7 +125,7 @@ The error in the code is the equal sign '='. when we use just one equals sign (=
 	    }
 	}
 	
-## Week 2 - Thursday
+## Week 2 - Tuesday
 ### Multiply exercise
 for solve this kata, only have to add the command RETURN in the second line
 
@@ -276,7 +276,7 @@ Given a string of digits, you should replace any digit below 5 with '0' and any 
 	  return binario;
 	}
 
-## Week 2 - Tuesday
+## Week 2 - Thursday
 ### Remove all exclamation marks from the end of sentence
 
 	function remove (string) {  
