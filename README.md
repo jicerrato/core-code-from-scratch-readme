@@ -297,5 +297,21 @@ Given a string of digits, you should replace any digit below 5 with '0' and any 
 	  return text;
 	}
 	
-### 
+### Vowel Remove
+Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.
+
+	function shortcut(string) {  
+	  let vocales = ['a','e','i','o','u'];
+	  let letra = '';
+	  let texto = '';
+	  let centil = false;
+	  for (let i = 0; i < string.length; i++){
+	    letra = string.charAt(i);
+	    centil = vocales.includes(letra,0);
+	    if (centil === false){
+	      texto = texto + letra;
+	    }
+	  }
+	  return texto;
+	}
 
