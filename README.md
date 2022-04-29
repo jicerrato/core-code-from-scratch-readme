@@ -343,3 +343,21 @@ Let's play! You have to return which player won! In case of a draw return Draw!.
 	  }
 	  return result;
 	};
+
+### Persistent Bugger.
+Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
+
+	function persistence(num) {
+	  let digito = num.toString().split('');
+	  let contador = 0;
+	  while (digito.length > 1){
+	    let multi = 1;
+	    for (let i = 0; i < digito.length; i++ ){
+	      multi = multi * digito[i];
+	    }
+	    contador = contador + 1;
+	    digito = multi.toString().split('');
+	  }
+	  return contador;
+	}
+
