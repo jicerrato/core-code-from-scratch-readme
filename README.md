@@ -362,7 +362,7 @@ Write a function, persistence, that takes in a positive parameter num and return
 	}
 
 
-##Week 3 - Monday
+## Week 3 - Monday
 ### Who Likes this?
 You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.Implement the function which takes an array containing the names of people that like an item. 
 
