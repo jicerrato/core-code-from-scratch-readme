@@ -378,4 +378,27 @@ You probably know the "like" system from Facebook and other pages. People can "l
 	  } 
 	}
 
+### BitCounting
+Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative. Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case
+
+	var countBits = function(n) {
+	  let bin = 0;
+	  let bina = '';
+	  let rem, i = 1, step = 1;
+	  while (n != 0) {
+	     rem = n % 2;
+	     n = parseInt(n / 2);
+	     bin = bin + rem * i;
+	     bina = bina + rem.toString();
+	     i = i * 10;
+	  }
+	  let contador = 0;
+	  for (let j = 0; j < bina.length; j++){
+	    if (bina.charAt(j) === '1'){
+	      contador = contador + 1;
+	    }
+	  }
+	  return contador;
+	};
+
 
