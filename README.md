@@ -20,7 +20,7 @@ In the case of the interpreted lenguages, are translate step by step (line by li
   	* PRINT total
   	* END
 
-## Week 1 - Wednesday
+### Wednesday Challenges
 ### Exercise #1
   1. START
   2. GET year
