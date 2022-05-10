@@ -5,7 +5,7 @@ ______________________________
 ______________________________
 
 ## Week 1 
-### Tuesday Challenges
+### Tuesday Challenges :muscle:
 1. **Question #1** 
 
 *Compiled lenguages are those programming lenguages witch need a pre revision or translation fron a source to a program file (compile process) So, this type of lenguages need to be translating first and then can be reading by the computer. This lenguages needs a specific type of ending code to run in a specific platform
@@ -28,7 +28,7 @@ In the case of the interpreted lenguages, are translate step by step (line by li
   	* PRINT total
   	* END
 
-### Wednesday Challenges
+### Wednesday Challenges :muscle:
 1. **Exercise #1 - Your date of birth in the matrix?**
 *Your team has just seen the movie "Matrix" and you have been asked, how the number of your year of birth would be written in binary. You must learn how to translate your date of birth into binary and show your team. (Do not use a webpage or a tool to convert your date of birth)*
 
@@ -101,7 +101,7 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 		syscall
 ```
 
-## Thursday Challenges
+## Thursday Challenges :muscle:
 **Exercise #1 - Print special numbers** *In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise*
 ```javascript
 var num = 0;
