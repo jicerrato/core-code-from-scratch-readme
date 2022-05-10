@@ -99,9 +99,7 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 ```
 
 ## Thursday Challenges
-### Exercise #1
-In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise
-	
+**Exercise #1 - Print special numbers** *In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise*
 ```javascript
 var num = 0;
 while (num<100)
@@ -110,26 +108,21 @@ while (num<100)
     console.log(num);
 }
 ```
-	
-### Exercise #2
-The error in the code is the equal sign '='. when we use just one equals sign (=) is to asigment a value to a variable, when we want to compare two or more values, we use double equals sign (==)
+
+**Exercise #2 - Bad code** *The error in the code is the equal sign '='. when we use just one equals sign (=) is to asigment a value to a variable, when we want to compare two or more values, we use double equals sign (==)*
 ```javascript	
 var cond = false;
-
-if ((cond == true)) 
-{
+if ((cond == true)) {
   console.log('The cond variable is true');
 } 
-else 
-{
+else {
   console.log('The cond variable is false');
 }
 ```
 
-### Exercise #3
+**Exercise #3 - Bad code 2** *You must create the code that follows the following logic, if the given number is 100, take this number as special and show the following message: "This is a special number!", but if the number is less than 1000, multiple of 10 and different from 100, you must show the following message: "This number is almost special". if none of the given conditions are met show the following message: "Just a regular number". Another developer was trying to program the logic, but apparently couldn't, you need to fix the code to work properly*
 ```javascript
 var n = 0;
-
 if (n == 100) {
     console.log('This is a special number!');
 }
