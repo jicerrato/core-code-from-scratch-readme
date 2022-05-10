@@ -5,7 +5,6 @@
 ### Tuesday Challenges
 1. **Question #1** 
 
-
 *Compiled lenguages are those programming lenguages witch need a pre revision or translation fron a source to a program file (compile process) So, this type of lenguages need to be translating first and then can be reading by the computer. This lenguages needs a specific type of ending code to run in a specific platform
 In the case of the interpreted lenguages, are translate step by step (line by line) and can be send the final code to any platform to execute.* 
 
@@ -109,9 +108,9 @@ while (num<100)
 	
 ### Exercise #2
 The error in the code is the equal sign '='. when we use just one equals sign (=) is to asigment a value to a variable, when we want to compare two or more values, we use double equals sign (==)
-	
+```javascript	
 var cond = false;
-```javascript
+
 if ((cond == true)) 
 {
   console.log('The cond variable is true');
@@ -123,25 +122,22 @@ else
 ```
 
 ### Exercise #3
+```javascript
+var n = 0;
 
-	var n = 0;
+if (n == 100) {
+    console.log('This is a special number!');
+}
+else{
+    if ((n < 1000) && (n % 10 == 0)) {
+        console.log('This number is almost special');
+    } 
+    else {
+        console.log('Just a regular number');
+    }
+}
+```
 
-	if (n == 100) 
-	{
-	    console.log('This is a special number!');
-	}
-	else
-	{
-	    if ((n < 1000) && (n % 10 == 0)) 
-	    {
-	        console.log('This number is almost special');
-	    } 
-	    else 
-	    {
-	        console.log('Just a regular number');
-	    }
-	}
-	
 ## Week 2 - Tuesday
 ### Multiply exercise
 for solve this kata, only have to add the command RETURN in the second line
