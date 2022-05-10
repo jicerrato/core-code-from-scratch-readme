@@ -209,88 +209,80 @@ function finalGrade (exam, projects) {
   if (exam>90 || projects>10)
     {
       return 100;
-    }
-  else if (exam>75 && projects>=5)
-    {
+    }else if (exam>75 && projects>=5){
       return 90;
-    }
-  else if (exam>50 && projects>=2)
-    {
+    }else if (exam>50 && projects>=2){
       return 75;
-    }
-  else
-    {
+    }else{
       return 0;
     }
 }
 ```
-## Week 2 - Wednesday
-### Holiday VIII - Duty Free
-The purpose of this kata is to work out just how many bottles of duty free whiskey you would have to buy such that the saving over the normal high street price would effectively cover the cost of your holiday.
-You will be given the high street price (normPrice), the duty free discount (discount) and the cost of the holiday.
-For example, if a bottle cost £10 normally and the discount in duty free was 10%, you would save £1 per bottle. If your holiday cost £500, the answer you should return would be 500.
-All inputs will be integers. Please return an integer. Round down.
+### :triangular_flag_on_post: Wednesday Challenges :muscle:
+:small_orange_diamond: **Holiday VIII - Duty Free**
 
-	function dutyFree(normPrice, discount, hol)
-	{
-	  let cant1 = (normPrice*discount)/100;
-	  let cant2 = hol/cant1;
-	  let cant3 = Math.floor(cant2);
-	  return cant3;
+*The purpose of this kata is to work out just how many bottles of duty free whiskey you would have to buy such that the saving over the normal high street price would effectively cover the cost of your holiday.You will be given the high street price (normPrice), the duty free discount (discount) and the cost of the holiday.For example, if a bottle cost £10 normally and the discount in duty free was 10%, you would save £1 per bottle. If your holiday cost £500, the answer you should return would be 500.All inputs will be integers. Please return an integer. Round down.*
+```javascript
+function dutyFree(normPrice, discount, hol){
+  let cant1 = (normPrice*discount)/100;
+  let cant2 = hol/cant1;
+  let cant3 = Math.floor(cant2);
+  return cant3;
+}
+```
+:small_orange_diamond: **Twice as old**
+
+*Your function takes two arguments:*
+  * current father's age (years)
+  * current age of his son (years)
+*Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).*
+```javascript
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  let edad = sonYearsOld * 2;
+  let diferencia = 0;
+  if (edad < dadYearsOld){
+    diferencia = dadYearsOld - edad;
+  } else {
+    diferencia = edad - dadYearsOld;
+  }
+  return diferencia
+}
+```
+:small_orange_diamond: **Valid Spacing**
+
+*Our task is to write a function called valid_spacing() or validSpacing() which checks if a string has valid spacing. The function should return either true or false (or the corresponding value in each language).For this kata, the definition of valid spacing is one space between words, and no leading or trailing spaces. Words can be any consecutive sequence of non space characters.*
+```javascript
+function validSpacing(s) {
+    for(let i=0;i<=s.length;i++){
+        if (s[0]==' ' || s[s.length-1]==' '){
+            var validation = false;
+	} else if (s[i]==' ' && s[ i + 1 ]==' ' && i >= 0 && i<s.length - 1 || s[i] == ' ' && s[ i - 1 ] == ' ' && i > 0 && i <= s.length - 1){ 
+	var validation = false;
 	}
+    }
+    if (typeof(validation) == "undefined"){
+        return true;
+    } else {return false};
+}
+``` 
+:small_orange_diamond: **Fake Binary**
 
-
-### Twice as old
-Your function takes two arguments:
- - current father's age (years)
- - current age of his son (years)
-Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
-
-	function twiceAsOld(dadYearsOld, sonYearsOld) {
-	  let edad = sonYearsOld * 2;
-	  let diferencia = 0;
-  
-	  if (edad < dadYearsOld){
-	    diferencia = dadYearsOld - edad;
-	  } else {
-	    diferencia = edad - dadYearsOld;
-	  }
-	  return diferencia
-	}
-	
-### Valid Spacing
-our task is to write a function called valid_spacing() or validSpacing() which checks if a string has valid spacing. The function should return either true or false (or the corresponding value in each language).
-For this kata, the definition of valid spacing is one space between words, and no leading or trailing spaces. Words can be any consecutive sequence of non space characters. 
-
-	function validSpacing(s) {
-	    for(let i=0;i<=s.length;i++){
-	        if (s[0]==' ' || s[s.length-1]==' '){
-	            var validation = false;}
-	        else if (s[i]==' ' && s[i+1]==' ' && i>=0 && i<s.length-1 || s[i]==' ' && s[i-			1]==' ' && i>0 && i<=s.length-1){
-	            var validation = false;}
-	    }
-	    if (typeof(validation) == "undefined"){
-	        return true;}
-	    else {return false};
-	}
-
-### Fake Binary
-Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string. Note: input will never be an empty string
-
-	function fakeBin(x){
-	  let digito = '';
-	  let binario = '';
-	  for (let i = 0; i < x.length; i++){
-	    digito = x.substr(i,1);
-	    if (digito < 5){
-	      binario = binario + '0';
-	    } else {
-	      binario = binario + '1';
-	    }
-	  }
-	  return binario;
-	}
-
+*Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string. Note: input will never be an empty string*
+```javascript
+function fakeBin(x){
+  let digito = '';
+  let binario = '';
+  for (let i = 0; i < x.length; i++){
+    digito = x.substr(i,1);
+    if (digito < 5){
+      binario = binario + '0';
+    } else {
+      binario = binario + '1';
+    }
+  }
+  return binario;
+}
+```
 ## Week 2 - Thursday
 ### Remove all exclamation marks from the end of sentence
 
