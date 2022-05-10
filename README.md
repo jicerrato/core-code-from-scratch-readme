@@ -91,16 +91,18 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 		syscall
 ```
 
-## Week 1 - Thursday
+## Thursday Challenges
 ### Exercise #1
 In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise
-	var num = 0;
-
-	while (num<100)
-	{
-	    num = num +2;
-	    console.log(num);
-	}
+	
+```javascript
+var num = 0;
+while (num<100)
+{
+    num = num +2;
+    console.log(num);
+}
+´´´
 	
 ### Exercise #2
 The error in the code is the equal sign '='. when we use just one equals sign (=) is to asigment a value to a variable, when we want to compare two or more values, we use double equals sign (==)
