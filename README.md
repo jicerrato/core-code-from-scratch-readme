@@ -145,24 +145,27 @@ ____________________________________________
 ## :calendar: Week 2
 ### Tuesday Challenges :muscle:
 **Multiply exercise** 
+
 *for solve this kata, only have to add the command RETURN in the second line*
 ```javascript
 function multiply(a, b){
    return a * b;
-}
-```	
+}	
+
+```
 **ASCII Total**
+
 *You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters. For this Kata, i used FOR and the function charCodeAt()*
-
-	function uniTotal (cadena) {
-	  let total = 0;
-	  for (let i = 0; i < cadena.length; i++)
-	  {
-	    total = total + Number(cadena.charCodeAt(i));
-	  }
-	  return total;
-	}
-
+```javascript
+function uniTotal (cadena) {
+  let total = 0;
+  for (let i = 0; i < cadena.length; i++)
+  {
+    total = total + Number(cadena.charCodeAt(i));
+  }
+  return total;
+}
+```
 ### Char From ASCII Value
 Write a function get_char() / getChar() which takes a number and returns the corresponding ASCII char for that value. In this case i have used the method String.fromCharCode()
 
