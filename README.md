@@ -371,44 +371,50 @@ function persistence(num) {
   return contador;
 }
 ```
+____________________________________________
+____________________________________________
+____________________________________________
 
-## Week 3 - Monday
-### Who Likes this?
-You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.Implement the function which takes an array containing the names of people that like an item. 
+## :calendar: Week 3 - Javascript
+:triangular_flag_on_post: ### Monday Challenges :muscle:
+:small_orange_diamond: **Who Likes this?** 
 
-	function likes(names) {
-	  let tamano = names.length;
-	  if (tamano === 0){return 'no one likes this';}
-	  else if (tamano === 1){return `${names[0]}${' likes this'}`;} 
-	  else if (tamano === 2){return `${names[0]}${' and '}${names[1]}${' like this'}`;}
-	  else if (tamano === 3){return `${names[0]}${', '}${names[1]}${' and '}${names[2]}${' like this'}`;}
-	  else{ 
-	    tamano = tamano - 2;
-	    return `${names[0]}${', '}${names[1]}${' and '}${tamano}${' others like this'}`;
-	  } 
-	}
+*You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.Implement the function which takes an array containing the names of people that like an item.*
+```javascript
+function likes(names) {
+  let tamano = names.length;
+  if (tamano === 0){return 'no one likes this';}
+  else if (tamano === 1){return `${names[0]}${' likes this'}`;} 
+  else if (tamano === 2){return `${names[0]}${' and '}${names[1]}${' like this'}`;}
+  else if (tamano === 3){return `${names[0]}${', '}${names[1]}${' and '}${names[2]}${' like this'}`;}
+  else{ 
+    tamano = tamano - 2;
+    return `${names[0]}${', '}${names[1]}${' and '}${tamano}${' others like this'}`;
+  } 
+}
+```
+:small_orange_diamond: **BitCounting**
 
-### BitCounting
-Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative. Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case
-
-	var countBits = function(n) {
-	  let bin = 0;
-	  let bina = '';
-	  let rem, i = 1, step = 1;
-	  while (n != 0) {
-	     rem = n % 2;
-	     n = parseInt(n / 2);
-	     bin = bin + rem * i;
-	     bina = bina + rem.toString();
-	     i = i * 10;
-	  }
-	  let contador = 0;
-	  for (let j = 0; j < bina.length; j++){
-	    if (bina.charAt(j) === '1'){
-	      contador = contador + 1;
-	    }
-	  }
-	  return contador;
-	};
+*Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative. Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case*
+```javascript
+var countBits = function(n) {
+  let bin = 0;
+  let bina = '';
+  let rem, i = 1, step = 1;
+  while (n != 0) {
+     rem = n % 2;
+     n = parseInt(n / 2);
+     bin = bin + rem * i;
+     bina = bina + rem.toString();
+     i = i * 10;
+  }
+  let contador = 0;
+  for (let j = 0; j < bina.length; j++){
+    if (bina.charAt(j) === '1'){
+      contador = contador + 1;
+    }
+  }
+  return contador;
+};
 
 
