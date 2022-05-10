@@ -80,16 +80,16 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 	move $a0, $t2
 	syscall
 ```
-
-
 #### Part 2
-	.data
+``` assembly
+.data
 		name: .asciiz "José Ismael cerrato Ortíz\n"
 	.text
 		main:
 		li $v0, 4
 		la $a0, name
 		syscall
+```
 
 ## Week 1 - Thursday
 ### Exercise #1
