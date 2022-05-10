@@ -6,16 +6,16 @@ ______________________________
 
 ## :calendar: Week 1 - Introduction to programming & Javascript
 ### :triangular_flag_on_post: Tuesday Challenges :muscle:
-1. **Question #1** 
+:small_orange_diamond: 1. **Question #1** 
 
 *Compiled lenguages are those programming lenguages witch need a pre revision or translation fron a source to a program file (compile process) So, this type of lenguages need to be translating first and then can be reading by the computer. This lenguages needs a specific type of ending code to run in a specific platform
 In the case of the interpreted lenguages, are translate step by step (line by line) and can be send the final code to any platform to execute.* 
 
-2. **Question #2** <\br>
+:small_orange_diamond: 2. **Question #2** <\br>
 
 *Java is both type, compiled and interpreted, because depends the platform or the necesity in the moment of execution, can be compile first and then be excecute, but, also can be interpreted because the java's compiler can create a bytecode file, which can be read by a intepreter after by the java virtual machine.*
 
-3. **Excersice #3 - Pseudocode currency converter**
+:small_orange_diamond: 3. **Excersice #3 - Pseudocode currency converter**
 
 
 *You have been selected to develop the algorithm that will be used to convert dollars (USD) to bitcoin (BTC), for this the first thing you must do is deliver a pseudocode with the algorithm to be developed, in this way you can explain in a better way to the team what will be the required operation. The main idea is to have a website where the user will be asked to enter the amount to convert.*
