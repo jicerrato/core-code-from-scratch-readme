@@ -283,91 +283,94 @@ function fakeBin(x){
   return binario;
 }
 ```
-## Week 2 - Thursday
-### Remove all exclamation marks from the end of sentence
+### :triangular_flag_on_post: Thursday Challenges :muscle:
+:small_orange_diamond: **Exclamation marks series #2: Remove all exclamation marks from the end of sentence**
+*Remove all exclamation marks from the end of sentence*
+```javascript
+function remove (string) {  
+  let contador = string.length;
+  let letra = '';
+  let text = string;
+  while (contador > 0){
+    letra = string.substr(contador-1,1);
+    if (letra === '!'){
+      text = string.substr(0,contador);
+    } else{
+      text = string.substr(0,contador);
+      break;
+    }
+    contador = contador -1;
+  }
+  return text;
+}
+```
+:small_orange_diamond: **Vowel Remove**
 
-	function remove (string) {  
-	  let contador = string.length;
-	  let letra = '';
-	  let text = string;
-	  while (contador > 0){
-	    letra = string.substr(contador-1,1);
-	    //console.log(letra);
-	    if (letra === '!'){
-	      text = string.substr(0,contador);
-	    }else{
-	      text = string.substr(0,contador);
-	      break;
-	    }
-	    contador = contador -1;
-	  }
-	  return text;
-	}
-	
-### Vowel Remove
-Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.
+*Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.*
+```javascript
+function shortcut(string) {  
+  let vocales = ['a','e','i','o','u'];
+  let letra = '';
+  let texto = '';
+  let centil = false;
+  for (let i = 0; i < string.length; i++){
+    letra = string.charAt(i);
+    centil = vocales.includes(letra,0);
+    if (centil === false){
+      texto = texto + letra;
+    }
+  }
+  return texto;
+}
+```
+:small_orange_diamond: **Rock Paper Scissors**
 
-	function shortcut(string) {  
-	  let vocales = ['a','e','i','o','u'];
-	  let letra = '';
-	  let texto = '';
-	  let centil = false;
-	  for (let i = 0; i < string.length; i++){
-	    letra = string.charAt(i);
-	    centil = vocales.includes(letra,0);
-	    if (centil === false){
-	      texto = texto + letra;
-	    }
-	  }
-	  return texto;
-	}
+*Let's play! You have to return which player won! In case of a draw return Draw!.*
+```javascript
+const rps = (p1, p2) => {
+  let result = '';
+  if (p1 === p2){
+    result = 'Draw!';
+  }else if (p1 === 'scissors'){
+    if (p2 === 'paper'){
+      result = 'Player 1 won!';
+    } else {
+      result = 'Player 2 won!';
+    }
+  }else if (p1 === 'paper'){
+    if (p2 === 'rock'){
+      result = 'Player 1 won!';
+    } else {
+      result = 'Player 2 won!';
+    } 
+  } else if (p1 === 'rock'){
+    if (p2 === 'scissors'){
+      result = 'Player 1 won!';
+    } else {
+      result = 'Player 2 won!';
+    } 
+  }
+  return result;
+};
+```
+:small_orange_diamond: **Persistent Bugger.**
 
-### Rock Paper Scissors
-Let's play! You have to return which player won! In case of a draw return Draw!.
-
-	const rps = (p1, p2) => {
-	  let result = '';
-	  if (p1 === p2){
-	    result = 'Draw!';
-	  }else if (p1 === 'scissors'){
-	    if (p2 === 'paper'){
-	      result = 'Player 1 won!';
-	    } else {
-	      result = 'Player 2 won!';
-	    }
-	  }else if (p1 === 'paper'){
-	    if (p2 === 'rock'){
-	      result = 'Player 1 won!';
-	    } else {
-	      result = 'Player 2 won!';
-	    } 
-	  } else if (p1 === 'rock'){
-	    if (p2 === 'scissors'){
-	      result = 'Player 1 won!';
-	    } else {
-	      result = 'Player 2 won!';
-	    } 
-	  }
-	  return result;
-	};
-
-### Persistent Bugger.
-Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
-
-	function persistence(num) {
-	  let digito = num.toString().split('');
-	  let contador = 0;
-	  while (digito.length > 1){
-	    let multi = 1;
-	    for (let i = 0; i < digito.length; i++ ){
-	      multi = multi * digito[i];
-	    }
-	    contador = contador + 1;
-	    digito = multi.toString().split('');
-	  }
-	  return contador;
-	}
-
+*Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.*
+```javascript
+function persistence(num) {
+  let digito = num.toString().split('');
+  let contador = 0;
+  while (digito.length > 1){
+    let multi = 1;
+    for (let i = 0; i < digito.length; i++ ){
+      multi = multi * digito[i];
+    }
+    contador = contador + 1;
+    digito = multi.toString().split('');
+  }
+  return contador;
+}
+```
 
 ## Week 3 - Monday
 ### Who Likes this?
