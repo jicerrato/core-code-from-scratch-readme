@@ -3,11 +3,11 @@
 
 ## Week 1 
 ### Tuesday Challenges
-1. **Question #1** <\n>
+1. **Question #1** <\br>
 *Compiled lenguages are those programming lenguages witch need a pre revision or translation fron a source to a program file (compile process) So, this type of lenguages need to be translating first and then can be reading by the computer. This lenguages needs a specific type of ending code to run in a specific platform
 In the case of the interpreted lenguages, are translate step by step (line by line) and can be send the final code to any platform to execute.* 
 
-2. **Question #2** <\n>
+2. **Question #2** <\br>
 *Java is both type, compiled and interpreted, because depends the platform or the necesity in the moment of execution, can be compile first and then be excecute, but, also can be interpreted because the java's compiler can create a bytecode file, which can be read by a intepreter after by the java virtual machine.*
 
 3. **Excersice #3**
