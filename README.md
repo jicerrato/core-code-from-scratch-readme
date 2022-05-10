@@ -12,7 +12,10 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 
 *Java is both type, compiled and interpreted, because depends the platform or the necesity in the moment of execution, can be compile first and then be excecute, but, also can be interpreted because the java's compiler can create a bytecode file, which can be read by a intepreter after by the java virtual machine.*
 
-3. **Excersice #3**
+3. **Excersice #3 - Pseudocode currency converter**
+
+
+*You have been selected to develop the algorithm that will be used to convert dollars (USD) to bitcoin (BTC), for this the first thing you must do is deliver a pseudocode with the algorithm to be developed, in this way you can explain in a better way to the team what will be the required operation. The main idea is to have a website where the user will be asked to enter the amount to convert.*
 
 * Pseudocode:
 	* START
@@ -23,7 +26,9 @@ In the case of the interpreted lenguages, are translate step by step (line by li
   	* END
 
 ### Wednesday Challenges
-### Exercise #1
+1. **Exercise #1 - Your date of birth in the matrix?**
+*Your team has just seen the movie "Matrix" and you have been asked, how the number of your year of birth would be written in binary. You must learn how to translate your date of birth into binary and show your team. (Do not use a webpage or a tool to convert your date of birth)*
+
   1. START
   2. GET year
   3. temp <-- year
@@ -39,9 +44,8 @@ In the case of the interpreted lenguages, are translate step by step (line by li
   12. END CICLE
   13. PRINT BIN
   14. END
-### Exercise #2
-#### Part 1
-	
+2. **Exercise #2 - MIPS**
+**Part 1** *Create a program that adds any two given numbers provided by the user*
 ```assembly
 .data
 	title: .asciiz "|---SUMA DE DOS NUMEROS---|\n"
@@ -82,7 +86,7 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 	move $a0, $t2
 	syscall
 ```
-#### Part 2
+**Part 2** *Create a program that displays your name*
 ``` assembly
 .data
 		name: .asciiz "José Ismael cerrato Ortíz\n"
