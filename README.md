@@ -6,17 +6,16 @@ ______________________________
 
 ## :calendar: Week 1 - Introduction to programming & Javascript
 ### :triangular_flag_on_post: Tuesday Challenges :muscle:
-:small_orange_diamond: 1. **Question #1** 
+:small_orange_diamond: **Answer to Question #1** 
 
 *Compiled lenguages are those programming lenguages witch need a pre revision or translation fron a source to a program file (compile process) So, this type of lenguages need to be translating first and then can be reading by the computer. This lenguages needs a specific type of ending code to run in a specific platform
 In the case of the interpreted lenguages, are translate step by step (line by line) and can be send the final code to any platform to execute.* 
 
-:small_orange_diamond: 2. **Question #2** <\br>
+:small_orange_diamond: **Answer to Question #2** 
 
 *Java is both type, compiled and interpreted, because depends the platform or the necesity in the moment of execution, can be compile first and then be excecute, but, also can be interpreted because the java's compiler can create a bytecode file, which can be read by a intepreter after by the java virtual machine.*
 
-:small_orange_diamond: 3. **Excersice #3 - Pseudocode currency converter**
-
+:small_orange_diamond: **Excersice #3 - Pseudocode currency converter**
 
 *You have been selected to develop the algorithm that will be used to convert dollars (USD) to bitcoin (BTC), for this the first thing you must do is deliver a pseudocode with the algorithm to be developed, in this way you can explain in a better way to the team what will be the required operation. The main idea is to have a website where the user will be asked to enter the amount to convert.*
 
@@ -29,7 +28,7 @@ In the case of the interpreted lenguages, are translate step by step (line by li
   	* END
 
 ### :triangular_flag_on_post: Wednesday Challenges :muscle:
-1. **Exercise #1 - Your date of birth in the matrix?**
+:small_orange_diamond: **Exercise #1 - Your date of birth in the matrix?**
 *Your team has just seen the movie "Matrix" and you have been asked, how the number of your year of birth would be written in binary. You must learn how to translate your date of birth into binary and show your team. (Do not use a webpage or a tool to convert your date of birth)*
 
   * START
@@ -48,7 +47,7 @@ In the case of the interpreted lenguages, are translate step by step (line by li
   * PRINT BIN
   * END
  
-2. **Exercise #2 - MIPS**
+:small_orange_diamond: **Exercise #2 - MIPS**
 **Part 1** *Create a program that adds any two given numbers provided by the user*
 ```assembly
 .data
@@ -102,7 +101,7 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 ```
 
 ## :triangular_flag_on_post: Thursday Challenges :muscle:
-**Exercise #1 - Print special numbers** *In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise*
+:small_orange_diamond: **Exercise #1 - Print special numbers** *In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise*
 ```javascript
 var num = 0;
 while (num<100)
@@ -112,7 +111,7 @@ while (num<100)
 }
 ```
 
-**Exercise #2 - Bad code** *The error in the code is the equal sign '='. when we use just one equals sign (=) is to asigment a value to a variable, when we want to compare two or more values, we use double equals sign (==)*
+:small_orange_diamond: **Exercise #2 - Bad code** *The error in the code is the equal sign '='. when we use just one equals sign (=) is to asigment a value to a variable, when we want to compare two or more values, we use double equals sign (==)*
 ```javascript	
 var cond = false;
 if ((cond == true)) {
@@ -123,7 +122,7 @@ else {
 }
 ```
 
-**Exercise #3 - Bad code 2** *You must create the code that follows the following logic, if the given number is 100, take this number as special and show the following message: "This is a special number!", but if the number is less than 1000, multiple of 10 and different from 100, you must show the following message: "This number is almost special". if none of the given conditions are met show the following message: "Just a regular number". Another developer was trying to program the logic, but apparently couldn't, you need to fix the code to work properly*
+:small_orange_diamond: **Exercise #3 - Bad code 2** *You must create the code that follows the following logic, if the given number is 100, take this number as special and show the following message: "This is a special number!", but if the number is less than 1000, multiple of 10 and different from 100, you must show the following message: "This number is almost special". if none of the given conditions are met show the following message: "Just a regular number". Another developer was trying to program the logic, but apparently couldn't, you need to fix the code to work properly*
 ```javascript
 var n = 0;
 if (n == 100) {
@@ -144,7 +143,7 @@ ____________________________________________
 
 ## :calendar: Week 2 - Javascript
 ### :triangular_flag_on_post: Tuesday Challenges :muscle:
-**Multiply exercise** 
+:small_orange_diamond: **Multiply exercise** 
 
 *for solve this kata, only have to add the command RETURN in the second line*
 ```javascript
@@ -153,7 +152,7 @@ function multiply(a, b){
 }	
 
 ```
-**ASCII Total**
+:small_orange_diamond: **ASCII Total**
 
 *You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters. For this Kata, i used FOR and the function charCodeAt()*
 ```javascript
@@ -166,70 +165,65 @@ function uniTotal (cadena) {
   return total;
 }
 ```
-### Char From ASCII Value
-Write a function get_char() / getChar() which takes a number and returns the corresponding ASCII char for that value. In this case i have used the method String.fromCharCode()
+:small_orange_diamond: **Char From ASCII Value**
 
-	function getChar(c)
-	{
-	    let text = String.fromCharCode(c);
-	    return text;
-	}
+*Write a function get_char() / getChar() which takes a number and returns the corresponding ASCII char for that value. In this case i have used the method String.fromCharCode()*
+```javascript
+function getChar(c){
+    let text = String.fromCharCode(c);
+    return text;
+}
+```
+:small_orange_diamond: **Binary Addition**
 
-### Binary Addition
-Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition. The binary number returned should be a string.
+*Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition. The binary number returned should be a string.*
+```javascript
+function addBinary(a,b) {
+    var suma = a + b;
+    var binario = '';
+    var numTemp = suma;
+    while (suma != 0){
+        numTemp = Math.trunc(suma / 2);
+        if ((suma % 2) == 0){
+           binario = '0'+ binario;
+        }
+	else{
+            binario = '1'+ binario;
+        }
+        suma = numTemp;
+    }
+    return binario;
+}
+```
+:small_orange_diamond: **Student's Final Grade**
 
-	function addBinary(a,b) 
-	{
-	    var suma = a + b;
-	    var binario = '';
-	    var numTemp = suma;
-	    while (suma != 0)
-	    {
-	        numTemp = Math.trunc(suma / 2);
-	        if ((suma % 2) == 0)
-	        {
-	            binario = '0'+ binario;
-	        }
-	        else
-	        {
-	            binario = '1'+ binario;
-	        }
-	        suma = numTemp;
-	    }
-	    return binario;
-	}
-
-### Student's Final Grade
-Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
-
-This function should take two arguments: exam - grade for exam (from 0 to 100); projects - number of completed projects (from 0 and above);
-
-This function should return a number (final grade). There are four types of final grades:
-
-100, if a grade for the exam is more than 90 or if a number of completed projects more than 10.
-90, if a grade for the exam is more than 75 and if a number of completed projects is minimum 5.
-75, if a grade for the exam is more than 50 and if a number of completed projects is minimum 2.
-0, in other cases
-
-	function finalGrade (exam, projects) {
-	  if (exam>90 || projects>10)
-	    {
-	      return 100;
-	    }
-	  else if (exam>75 && projects>=5)
-	    {
-	      return 90;
-	    }
-	  else if (exam>50 && projects>=2)
-	    {
-	      return 75;
-	    }
-	  else
-	    {
-	      return 0;
-	    }
-	}
-
+*Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
+* This function should take two arguments: exam - grade for exam (from 0 to 100); projects - number of completed projects (from 0 and above);
+* This function should return a number (final grade). There are four types of final grades:
+	* 100, if a grade for the exam is more than 90 or if a number of completed projects more than 10.
+	* 90, if a grade for the exam is more than 75 and if a number of completed projects is minimum 5.
+	* 75, if a grade for the exam is more than 50 and if a number of completed projects is minimum 2.
+	* 0, in other cases
+```javascript
+function finalGrade (exam, projects) {
+  if (exam>90 || projects>10)
+    {
+      return 100;
+    }
+  else if (exam>75 && projects>=5)
+    {
+      return 90;
+    }
+  else if (exam>50 && projects>=2)
+    {
+      return 75;
+    }
+  else
+    {
+      return 0;
+    }
+}
+```
 ## Week 2 - Wednesday
 ### Holiday VIII - Duty Free
 The purpose of this kata is to work out just how many bottles of duty free whiskey you would have to buy such that the saving over the normal high street price would effectively cover the cost of your holiday.
