@@ -39,45 +39,49 @@ In the case of the interpreted lenguages, are translate step by step (line by li
   14. END
 ### Exercise #2
 #### Part 1
-	.data
-		title: .asciiz "|---SUMA DE DOS NUMEROS---|\n"
-		num1: .asciiz "\nIngrese el Primer Numero:"
-		num2: .asciiz "\nIngrese el Segundo Numero:"
-		result: .asciiz "\nEl resultado de la suma es:"
-	.text
-		main:
-		li $v0, 4
-		la $a0, title
-		syscall
 	
-		li $v0, 4
-		la $a0, num1
-		syscall
+```assembly
+.data
+	title: .asciiz "|---SUMA DE DOS NUMEROS---|\n"
+	num1: .asciiz "\nIngrese el Primer Numero:"
+	num2: .asciiz "\nIngrese el Segundo Numero:"
+	result: .asciiz "\nEl resultado de la suma es:"
+.text
+	main:
+	li $v0, 4
+	la $a0, title
+	syscall
+
+	li $v0, 4
+	la $a0, num1
+	syscall
+
+	li $v0, 5
+	syscall
 	
-		li $v0, 5
-		syscall
+	move $t0, $v0
+
+	li $v0, 4
+	la $a0, num2
+	syscall
 	
-		move $t0, $v0
+	li $v0, 5
+	syscall
 	
-		li $v0, 4
-		la $a0, num2
-		syscall
+	move $t1, $v0
 	
-		li $v0, 5
-		syscall
+	add $t2, $t0, $t1
 	
-		move $t1, $v0
+	li $v0, 4
+	la $a0, result
+	syscall
 	
-		add $t2, $t0, $t1
-	
-		li $v0, 4
-		la $a0, result
-		syscall
-	
-		li $v0, 1
-		move $a0, $t2
-		syscall
-	
+	li $v0, 1
+	move $a0, $t2
+	syscall
+```
+
+
 #### Part 2
 	.data
 		name: .asciiz "José Ismael cerrato Ortíz\n"
