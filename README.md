@@ -3,11 +3,11 @@
 
 ## Week 1 
 ### Tuesday Challenges
-1. **Question #1** 
+1. **Question #1** <\n>
 *Compiled lenguages are those programming lenguages witch need a pre revision or translation fron a source to a program file (compile process) So, this type of lenguages need to be translating first and then can be reading by the computer. This lenguages needs a specific type of ending code to run in a specific platform
 In the case of the interpreted lenguages, are translate step by step (line by line) and can be send the final code to any platform to execute.* 
 
-2. **Question #2**
+2. **Question #2** <\n>
 *Java is both type, compiled and interpreted, because depends the platform or the necesity in the moment of execution, can be compile first and then be excecute, but, also can be interpreted because the java's compiler can create a bytecode file, which can be read by a intepreter after by the java virtual machine.*
 
 3. **Excersice #3**
@@ -102,20 +102,22 @@ while (num<100)
     num = num +2;
     console.log(num);
 }
-´´´
+```
 	
 ### Exercise #2
 The error in the code is the equal sign '='. when we use just one equals sign (=) is to asigment a value to a variable, when we want to compare two or more values, we use double equals sign (==)
-	var cond = false;
-
-	if ((cond == true)) 
-	{
-	  console.log('The cond variable is true');
-	} 
-	else 
-	{
-	  console.log('The cond variable is false');
-	}
+	
+var cond = false;
+```javascript
+if ((cond == true)) 
+{
+  console.log('The cond variable is true');
+} 
+else 
+{
+  console.log('The cond variable is false');
+}
+```
 
 ### Exercise #3
 
