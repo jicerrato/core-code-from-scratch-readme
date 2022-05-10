@@ -5,7 +5,7 @@ ______________________________
 ______________________________
 
 ## :calendar: Week 1 - Introduction to programming & Javascript
-### Tuesday Challenges :muscle:
+### :triangular_flag_on_post: Tuesday Challenges :muscle:
 1. **Question #1** 
 
 *Compiled lenguages are those programming lenguages witch need a pre revision or translation fron a source to a program file (compile process) So, this type of lenguages need to be translating first and then can be reading by the computer. This lenguages needs a specific type of ending code to run in a specific platform
