@@ -4,7 +4,7 @@ ______________________________
 ______________________________
 ______________________________
 
-## :calendar: Week 1 
+## :calendar: Week 1 - Introduction to programming & Javascript
 ### Tuesday Challenges :muscle:
 1. **Question #1** 
 
@@ -142,7 +142,7 @@ ____________________________________________
 ____________________________________________
 ____________________________________________
 
-## :calendar: Week 2
+## :calendar: Week 2 - Javascript
 ### Tuesday Challenges :muscle:
 **Multiply exercise** 
 
