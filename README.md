@@ -29,14 +29,14 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 1. **Exercise #1 - Your date of birth in the matrix?**
 *Your team has just seen the movie "Matrix" and you have been asked, how the number of your year of birth would be written in binary. You must learn how to translate your date of birth into binary and show your team. (Do not use a webpage or a tool to convert your date of birth)*
 
-  1. START
-  2. GET year
-  3. temp <-- year
-  4. INIT bin 
-  4. START CICLE
-  5. --temp <-- temp / 2
-  6. --START DESICION
-  7. ----SI remain(temp/2) igual 0
+  * START
+  * GET year
+  * temp <-- year
+  * INIT bin 
+  * START CICLE
+  * | temp <-- temp / 2
+  * | START DESICION
+  * | SI remain(temp/2) igual 0
   8. ------bin <-- concatenar(0, bin)
   9. ----SINO
   10. -----bin <-- concatenar(1, bin)
