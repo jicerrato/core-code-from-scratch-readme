@@ -1,5 +1,8 @@
-# **CoreCode From Scratch Readme**
+______________________________
+# ***CoreCode From Scratch Readme***
 #### **Developer:** *Ismael Cerrato*
+______________________________
+______________________________
 
 ## Week 1 
 ### Tuesday Challenges
