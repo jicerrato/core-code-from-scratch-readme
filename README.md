@@ -34,16 +34,17 @@ In the case of the interpreted lenguages, are translate step by step (line by li
   * temp <-- year
   * INIT bin 
   * START CICLE
-  * | temp <-- temp / 2
-  * | START DESICION
-  * | SI remain(temp/2) igual 0
-  8. ------bin <-- concatenar(0, bin)
-  9. ----SINO
-  10. -----bin <-- concatenar(1, bin)
-  11. --END DESICION
-  12. END CICLE
-  13. PRINT BIN
-  14. END
+  * temp <-- temp / 2
+  	* START DESICION
+  	* SI remain(temp/2) igual 0
+  		* bin <-- concatenar(0, bin)
+  	* SINO
+  		* bin <-- concatenar(1, bin)
+  	* END DESICION
+  * END CICLE
+  * PRINT BIN
+  * END
+ 
 2. **Exercise #2 - MIPS**
 **Part 1** *Create a program that adds any two given numbers provided by the user*
 ```assembly
