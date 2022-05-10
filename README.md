@@ -28,7 +28,7 @@ In the case of the interpreted lenguages, are translate step by step (line by li
   	* PRINT total
   	* END
 
-### Wednesday Challenges :muscle:
+### :triangular_flag_on_post: Wednesday Challenges :muscle:
 1. **Exercise #1 - Your date of birth in the matrix?**
 *Your team has just seen the movie "Matrix" and you have been asked, how the number of your year of birth would be written in binary. You must learn how to translate your date of birth into binary and show your team. (Do not use a webpage or a tool to convert your date of birth)*
 
@@ -101,7 +101,7 @@ In the case of the interpreted lenguages, are translate step by step (line by li
 		syscall
 ```
 
-## Thursday Challenges :muscle:
+## :triangular_flag_on_post: Thursday Challenges :muscle:
 **Exercise #1 - Print special numbers** *In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise*
 ```javascript
 var num = 0;
@@ -143,7 +143,7 @@ ____________________________________________
 ____________________________________________
 
 ## :calendar: Week 2 - Javascript
-### Tuesday Challenges :muscle:
+### :triangular_flag_on_post: Tuesday Challenges :muscle:
 **Multiply exercise** 
 
 *for solve this kata, only have to add the command RETURN in the second line*
