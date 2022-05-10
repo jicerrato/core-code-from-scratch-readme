@@ -4,7 +4,7 @@ ______________________________
 ______________________________
 ______________________________
 
-## :calendar: Week 1 :mailbox_with_mail:
+## :calendar: Week 1 
 ### Tuesday Challenges :muscle:
 1. **Question #1** 
 
@@ -138,19 +138,21 @@ else{
     }
 }
 ```
-____________________________________________________________________________________________
-____________________________________________________________________________________________
+____________________________________________
+____________________________________________
+____________________________________________
 
-## Week 2 - Tuesday
-### Multiply exercise
-for solve this kata, only have to add the command RETURN in the second line
-
-	function multiply(a, b){
-	  return a * b;
-	}
-	
-### ASCII Total
-You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters. For this Kata, i used FOR and the function charCodeAt()
+## :calendar: Week 2
+### Tuesday Challenges :muscle:
+**Multiply exercise** 
+*for solve this kata, only have to add the command RETURN in the second line*
+```javascript
+function multiply(a, b){
+   return a * b;
+}
+```	
+**ASCII Total**
+*You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters. For this Kata, i used FOR and the function charCodeAt()*
 
 	function uniTotal (cadena) {
 	  let total = 0;
