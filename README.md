@@ -416,5 +416,27 @@ var countBits = function(n) {
   }
   return contador;
 };
+```
+:small_orange_diamond: **Your order, please**
+*Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.*
+```javascript
+function order (words){
+  let palabras = words.split(' '); 
+  let orden = [];
+  let num = 0;
+  let regex = /(\d+)/g;
+  let resultado = '';
+  for (let i = 0; i < palabras.length-1; i++){
+    orden.push('');
+  }
+  for (let j = 0; j < palabras.length; j++){
+    num = parseInt(palabras[j].match(regex));
+    orden[num-1] = (palabras[j]);
+    resultado = orden.join(' ');
+    }
+  return resultado;
+}
+```
+
 
 
