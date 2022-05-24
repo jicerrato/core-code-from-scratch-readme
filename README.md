@@ -444,5 +444,29 @@ function order (words){
 
 *Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.*
 
+```javascript
+function pigIt(str){
+  let signos = ['!', '¡', '?', '¿', '.', ',', ':', ';'];
+  let palabras = str.split(' ');
+  let palabra = '';
+  let resultado = [];
+  
+  for (let j = 0; j < palabras.length; j++){
+    palabra = palabras[j];
+    if (signos.indexOf(palabra) >= 0){
+        resultado.push(`${palabra.substring(1, (palabra.length))}${palabra.substring(0,1)}`); 
+    }else{
+      resultado.push(`${palabra.substring(1, (palabra.length))}${palabra.substring(0,1)}${'ay'}`);
+    }
+  }
+ return resultado.join(' ');  
+}
+```
+:small_orange_diamond: **Count the number of Duplicates** 
+
+*Write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.*
+
+```javascript
 
 
+```
