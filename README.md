@@ -2,9 +2,18 @@ ______________________________
 # ***CoreCode From Scratch Readme***
 #### **Developer:** *Ismael Cerrato*
 ______________________________
+![Esta es una imagen de ejemplo](https://www.thepostcity.com/wp-content/uploads/2020/12/Become-a-Web-Developer.jpg)
 ______________________________
 
-## :calendar: Week 1 - Introduction to programming & Javascript
+### **Tabla de Contenido**
+1. [Week 1 - Introduction to programming & Javascript](#week1)
+2. [Week 2 - JavaScript](#week2)
+3. [Week 2 - JavaScript](#week3)
+
+
+
+
+## :calendar: Week 1 - Introduction to programming & Javascript <a name="week1"></a>
 ### :triangular_flag_on_post: Tuesday Challenges :muscle:
 :small_orange_diamond: **Answer to Question #1** 
 
@@ -141,7 +150,7 @@ ____________________________________________
 ____________________________________________
 ____________________________________________
 
-## :calendar: Week 2 - Javascript
+## :calendar: Week 2 - Javascript <a name="week2"></a>
 ### :triangular_flag_on_post: Tuesday Challenges :muscle:
 :small_orange_diamond: **Multiply exercise** 
 
@@ -375,7 +384,7 @@ ____________________________________________
 ____________________________________________
 ____________________________________________
 
-## :calendar: Week 3 - Javascript
+## :calendar: Week 3 - Javascript <a name="week3"></a>
 ### :triangular_flag_on_post: Monday Challenges :muscle:
 :small_orange_diamond: **Who Likes this?** 
 
