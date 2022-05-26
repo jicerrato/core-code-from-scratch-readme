@@ -12,7 +12,12 @@ ______________________________
    3. [Week 2 - JavaScript](#week3)
 ______________________________
 
+![](https://www.trazos-web.com/wp-content/uploads/2020/03/los-40-mejores-blogs-sobre-diseno-y-desarrollo-web-en-espanol-1024x384.jpg)
 
+
+______________________________
+______________________________
+______________________________
 
 ## :calendar: Week 1 - Introduction to programming & Javascript <a name="week1"></a>
 ### :triangular_flag_on_post: Tuesday Challenges :muscle:
