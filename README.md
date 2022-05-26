@@ -1,15 +1,16 @@
 ______________________________
-# ***CoreCode From Scratch Readme***
-#### **Developer:** *Ismael Cerrato*
+# ***CoreCode From Scratch Readme*** :computer:
+#### **Developer:** *Ismael Cerrato* :boy:
 ______________________________
-![Esta es una imagen de ejemplo](https://www.thepostcity.com/wp-content/uploads/2020/12/Become-a-Web-Developer.jpg)
+![](https://www.thepostcity.com/wp-content/uploads/2020/12/Become-a-Web-Developer.jpg)
 ______________________________
 
 ### **Tabla de Contenido**
-1. [Week 1 - Introduction to programming & Javascript](#week1)
-2. [Week 2 - JavaScript](#week2)
-3. [Week 2 - JavaScript](#week3)
-
+______________________________
+   1. [Week 1 - Introduction to programming & Javascript](#week1)
+   2. [Week 2 - JavaScript](#week2)
+   3. [Week 2 - JavaScript](#week3)
+______________________________
 
 
 
