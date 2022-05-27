@@ -9,7 +9,7 @@ ______________________________
 ______________________________
    1. [Week 1 - Introduction to programming & Javascript](#week1)
    2. [Week 2 - JavaScript](#week2)
-   3. [Week 2 - JavaScript](#week3)
+   3. [Week 3 - JavaScript](#week3)
 ______________________________
 
 ![](https://www.trazos-web.com/wp-content/uploads/2020/03/los-40-mejores-blogs-sobre-diseno-y-desarrollo-web-en-espanol-1024x384.jpg)
