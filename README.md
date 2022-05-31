@@ -528,5 +528,22 @@ decodeMorse = function (morseCode) {
 *Write a function that takes a string of parentheses, and determines if the order of the parentheses is valid. The function should return true if the string is valid, and false if it's invalid.*
 
 ```javascript
+function validParentheses(parens){
+  var n = 0;
+  for (var i = 0; i < parens.length; i++) {
+    if (parens[i] == '(') n++;
+    if (parens[i] == ')') n--;
+    if (n < 0) return false;
+  }
+  
+  return n == 0;
+}
+```
+
+:small_orange_diamond: **Convert string to camel case** 
+*Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case).*
+
+```javascript
 
 ```
+
