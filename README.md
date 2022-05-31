@@ -544,6 +544,27 @@ function validParentheses(parens){
 *Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case).*
 
 ```javascript
-
+function toCamelCase(str){
+  if (str.length === 0){return '';}
+  
+  str = str.replace(/-/g,' ');
+  str = str.replace(/_/g,' ');
+  let strArray = str.split(' ');
+  let textoFinal = strArray[0];
+  
+  for (let i = 1; i < strArray.length; i++){
+    let palabra = strArray[i];
+    textoFinal = textoFinal + palabra.charAt(0).toUpperCase() + palabra.slice(1);
+  }
+  return textoFinal;
+}
 ```
+
+:small_orange_diamond: **Unique In Order** 
+*Implement the function unique_in_order which takes as argument a sequence and returns a list of items without any elements with the same value next to each other and preserving the original order of elements.*
+
+```javascript
+```
+
+
 
