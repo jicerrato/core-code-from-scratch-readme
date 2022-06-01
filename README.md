@@ -582,7 +582,8 @@ var uniqueInOrder=function(iterable){
 ```
 
 ### :triangular_flag_on_post: Thursday Challenges :muscle:
-:small_orange_diamond: **Fold an array** 
+:small_orange_diamond: **Fold an array**
+
 *In this kata you have to write a method that folds a given array of integers by the middle x-times.An example says more than thousand words:*
 ```
 Fold 1-times:
@@ -605,6 +606,7 @@ If an array with one element is folded, it stays as the same array.
 The input array should not be modified!*
 
 ```javascript
+
 ```
 
 
