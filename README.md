@@ -606,8 +606,35 @@ If an array with one element is folded, it stays as the same array.
 The input array should not be modified!*
 
 ```javascript
-
+function foldArray(array, runs) {
+  if (array.length === 1) return array;
+  let output = [...array];
+  let aheadPosition = 0;
+  while (runs) {
+    if (output.length === 1) return output;
+    output = Array.from(
+      { length: Math.round(output.length / 2) },
+      (v) => 0
+    ).map((v, i) => {
+      aheadPosition = output.length - (i + 1);
+      if (aheadPosition === i) return output[i];
+      return output[i] + output[aheadPosition];
+    });
+    runs--;
+  }
+  return output;
+}
 ```
 
+:small_orange_diamond: **Encrypt this!**
 
+*You want to create secret messages which can be deciphered by the Decipher this! kata. Here are the conditions:
+Your message is a string containing space separated words.
+You need to encrypt each word in the message using the following rules:
+The first letter must be converted to its ASCII code.
+The second letter must be switched with the last letter
+Keepin' it simple: There are no special characters in the input.*
 
+```javascript
+
+```
