@@ -636,5 +636,25 @@ The second letter must be switched with the last letter
 Keepin' it simple: There are no special characters in the input.*
 
 ```javascript
-
+var encryptThis = function(text) {
+  const encriptar = text.split(' ');
+  
+  let encriptado = [];
+  
+  for (let i = 0; i < encriptar.length; i++){
+    let palabra = encriptar[i];
+    if (palabra.length === 1){ 
+      encriptado.push(palabra.charCodeAt());
+      continue;
+    }
+    else if (palabra.length === 2){ 
+      encriptado.push(`${palabra.charCodeAt(0)}${palabra[1]}`)
+      continue
+    }
+    else {
+    encriptado.push(`${palabra.charCodeAt(0)}${palabra[palabra.length - 1]}${palabra.slice(2, palabra.length - 1)}${palabra[1]}`);
+    }
+  }
+  return encriptado.join(' ');
+}
 ```
