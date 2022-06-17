@@ -658,3 +658,25 @@ var encryptThis = function(text) {
   return encriptado.join(' ');
 }
 ```
+____________________________________________
+____________________________________________
+____________________________________________
+
+## :calendar: Week 4 - End Of Month & Pause Day <a name="week4"></a>
+### :triangular_flag_on_post: Wednesday Challenges :muscle:
+:small_orange_diamond: **Simple validation of a username with regex** 
+
+*Write a simple regex to validate a username. Allowed characters are:
+-lowercase letters,
+-numbers,
+-underscore
+Length should be between 4 and 16 characters (both included).*
+
+```javascript
+function validateUsr(username) {
+  res =  /^([a-z]+|\d+|_){4,16}$/.test(username) 
+  return res
+}
+
+```
+
