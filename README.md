@@ -11,6 +11,7 @@ ______________________________
    2. [Week 2 - JavaScript](#week2)
    3. [Week 3 - JavaScript](#week3)
    4. [Week 4 - End Of Month & Pause Day](#week4)
+   5. [Week 5 - TypeScript](#week5)
 ______________________________
 
 ![](https://www.trazos-web.com/wp-content/uploads/2020/03/los-40-mejores-blogs-sobre-diseno-y-desarrollo-web-en-espanol-1024x384.jpg)
@@ -704,4 +705,22 @@ function stringClean(s) {
 
 :small_orange_diamond: **String cleaning**
 
-*
+*You need to write regex that will validate a password to make sure it meets the following criteria:
+At least six characters long
+contains a lowercase letter
+contains an uppercase letter
+contains a number
+Valid passwords will only be alphanumeric characters.*
+
+```javascript
+function validate(password) {
+  return (
+    /^[A-Za-z0-9]{6,}$/.test(password) &&
+    /[A-Z]+/.test(password) &&
+    /[a-z]+/.test(password) &&
+    /[0-9]+/.test(password)
+  );
+}
+```
+
+## :calendar: Week 5 - TypeScript <a name="week5"></a>
